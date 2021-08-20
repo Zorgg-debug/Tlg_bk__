@@ -1,0 +1,18 @@
+﻿<Window x:Class="Tlg_bk__.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tlg_bk__"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="315.314" Width="162.857">
+    <Grid Margin="0,0,2,2">
+        <Button x:Name="btn_autorization" Content="Авторизация" HorizontalAlignment="Left" Margin="10,36,0,0" VerticalAlignment="Top" Width="133" Click="btn_autorization_Click"/>
+        <TextBox x:Name="tb_code" HorizontalAlignment="Left" Height="23" Margin="10,8,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="133"/>
+        <Button x:Name="btn_start" Content="Старт Автомат" HorizontalAlignment="Left" Margin="10,74,0,0" VerticalAlignment="Top" Width="133" Click="btn_start_Click" Height="48"/>
+        <Button x:Name="btn_update" Content="Обновить коэффициэнты" HorizontalAlignment="Left" Margin="5,222,0,0" VerticalAlignment="Top" Width="144" Height="33" Click="btn_update_Click"/>
+        <Button x:Name="tb_stop" Content="Стоп автомат" HorizontalAlignment="Left" Margin="10,170,0,0" VerticalAlignment="Top" Width="133" Click="tb_stop_Click"/>
+        <Label x:Name="lb_status" Content="" HorizontalAlignment="Left" Margin="10,127,0,0" VerticalAlignment="Top" Width="133" Background="#00000000"/>
+
+    </Grid>
+</Window>
